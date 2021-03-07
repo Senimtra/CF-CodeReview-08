@@ -2,4 +2,9 @@ body {
   background-image: url(./images/dark_wood.png);
   color: red;
 }
+
+.font1 {
+  font-family: "Ranchers", cursive;
+  font-size: 200%;
+}
 /*# sourceMappingURL=styles.css.map */
