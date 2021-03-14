@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- ### Head begins here ### -->
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ### Bootstrap CDN insertion ### -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- ### Embed ACME-font from Google-fonts ### -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ### Link own CSS-styles ### -->
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <title>Code Review 03 - Semintra's Burgatory</title>
+  </head>
+
+  <!-- ### Body begins here ### -->
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- ### Header begins here ### -->
+
+        <header>
+          <div
+            class="col px-5 py-3 d-flex flex-wrap justify-content-between header text-light"
+          >
+            <div class="bg-info p-3 my-5 logo">
+              <a href="index.html"><div class="bg-dark p-4">Burgatory</div></a>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><img src="./images/whatsapp.png" alt="WhatsApp-Logo"
+              /></a>
+              <a href="https://twitter.com/" target="_blank"
+                ><img src="./images/twitter.png" alt="Twitter-Logo"
+              /></a>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="./images/facebook.png" alt="Facebook-Logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="./images/instagram.png" alt="Instagram-Logo"
+              /></a>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="row m-0">
+        <!-- ### Hero image + Nav-bar begins here ### -->
+
+        <div class="col heroImg px-4">
+          <nav class="navbar navbar-expand pt-5 px-4">
+            <ul class="nav nav-pills gap-1 bg-info p-2">
+              <li class="nav-item pill-1">
+                <a
+                  class="nav-link active"
+                  data-bs-toggle="tab"
+                  data-bs-target="#home"
+                  aria-controls="home"
+                  aria-selected="true"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item pill-2">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="#trust"
+                  aria-controls="trust"
+                  aria-selected="false"
+                  >We are trusted!</a
+                >
+              </li>
+              <li class="nav-item pill-3">
+                <a
+                  class="nav-link"
+                  data-bs-toggle="tab"
+                  data-bs-target="#contact"
+                  aria-controls="trust"
+                  aria-selected="false"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- ################################## -->
+      <!-- ### Sub-Page selection / Pills ### -->
+      <!-- ################################## -->
+
+      <div class="tab-content">
+        <div
+          class="tab-pane fade show active"
+          id="home"
+          aria-labelledby="home-tab"
+        >
+          <div class="row m-0">
+            <!-- ### Main content begins here ### -->
+
+            <div class="col bg-info px-5 pb-5 main">
+              <!-- ### Starters & Sides begin here ### -->
+
+              <div class="row sectionTxt pt-4 pb-5">
+                <div class="col d-flex justify-content-center p-0">
+                  <div
+                    class="col-12 d-flex flex-wrap secHead p-2 mt-5 mb-3 gap-3 bg-dark"
+                  >
+                    <img src="./images/sec_nachos.png" />
+                    <div>Starters & Sides</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-4 pb-4 px-2 bg-dark section">
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox starter1"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Chicken Wings</h2></div>
+                    <div class="description">6-Pack with dip of choice.</div>
+                    <div class="description">"Do the funky chicken!"</div>
+                    <div class="price">€ 5.50</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox starter2"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Nacho Grande</h2></div>
+                    <div class="description">True mexican style.</div>
+                    <div class="description">"¡Ay, caramba!"</div>
+                    <div class="price">€ 4.95</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox starter3"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Shrimp Basket</h2></div>
+                    <div class="description">Delicious sea food.</div>
+                    <div class="description">"Just tasty!"</div>
+                    <div class="price">€ 6.50</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox starter4"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Caesar's Salad</h2></div>
+                    <div class="description">Fresh and healthy.</div>
+                    <div class="description">"Hail, Caesar!"</div>
+                    <div class="price">€ 5.95</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ### Burgers begin here ### -->
+
+              <div class="row sectionTxt pt-4 pb-5">
+                <div class="col d-flex justify-content-center p-0">
+                  <div
+                    class="col-12 d-flex flex-wrap gap-3 secHead p-2 mt-5 mb-3 bg-dark"
+                  >
+                    <img src="./images/sec_burger.png" />
+                    <div>Our famous Burgers</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-4 pb-4 px-2 bg-dark section">
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox burgers1"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Our Burgatory</h2></div>
+                    <div class="description">"A picture is worth</div>
+                    <div class="description">a thousand words."</div>
+                    <div class="price">€ 11.75</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox burgers2"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Pulled Pork</h2></div>
+                    <div class="description">"A great place</div>
+                    <div class="description">to get porked."</div>
+                    <div class="price">€ 12.95</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox burgers3"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Double Cheese</h2></div>
+                    <div class="description">"The yummy cheese</div>
+                    <div class="description">for your tummy."</div>
+                    <div class="price">€ 9.85</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox burgers4"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Veggie</h2></div>
+                    <div class="description">"The best Veggie</div>
+                    <div class="description">-Burger in town!"</div>
+                    <div class="price">€ 7.49</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ### Desserts begin here ### -->
+
+              <div class="row sectionTxt pt-4 pb-5">
+                <div class="col d-flex justify-content-center p-0">
+                  <div
+                    class="col-12 d-flex flex-wrap gap-3 secHead p-2 mt-5 mb-3 bg-dark"
+                  >
+                    <img src="./images/sec_cookie.png" />
+                    <div>Sweet Temptations</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-4 pb-4 px-2 bg-dark section">
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox dessert1"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Cookies!</h2></div>
+                    <div class="description">"Nothing better than</div>
+                    <div class="description">a bag of cookies."</div>
+                    <div class="price">€ 4.25</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox dessert2"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Cheesecake</h2></div>
+                    <div class="description">"Spreading the love</div>
+                    <div class="description">one cake at a time!"</div>
+                    <div class="price">€ 2.99</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox dessert3"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Just donut!</h2></div>
+                    <div class="description">"Experience a different</div>
+                    <div class="description">kind of donut."</div>
+                    <div class="price">€ 1.95</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 grow">
+                  <div class="mealBox dessert4"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Icecream</h2></div>
+                    <div class="description">"Give yourself a sweet treat</div>
+                    <div class="description">after a heavy meal."</div>
+                    <div class="price">€ 2.89</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ### Beverages begin here ###  -->
+
+              <div class="row sectionTxt pt-4 pb-5">
+                <div class="col d-flex justify-content-center p-0">
+                  <div
+                    class="col-12 d-flex flex-wrap gap-3 secHead p-2 mt-5 mb-3 bg-dark"
+                  >
+                    <img src="./images/sec_drinks.png" />
+                    <div>Refreshments</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-4 pb-4 px-2 bg-dark section">
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox drinks1"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Iced Tea</h2></div>
+                    <div class="description">"Welcome to the</div>
+                    <div class="description">grand teavolution."</div>
+                    <div class="price">€ 2.85</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox drinks2"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Fruit Juice</h2></div>
+                    <div class="description">"Giving your taste</div>
+                    <div class="description">a nature taste."</div>
+                    <div class="price">€ 3.05</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox drinks3"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Clear H20</h2></div>
+                    <div class="description">"Water ..</div>
+                    <div class="description">beauty of nature."</div>
+                    <div class="price">€ 1.85</div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="mealBox drinks4"></div>
+                  <div class="mealText p-2">
+                    <div><h2>Corona</h2></div>
+                    <div class="description">"Log off. Lime in.</div>
+                    <div class="description">Find your beach."</div>
+                    <div class="price">€ 3.90</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ################################# -->
+        <!-- ### Sub-Page Customer-reviews ### -->
+        <!-- ################################# -->
+
+        <div class="tab-pane fade" id="trust" aria-labelledby="profile-tab">
+          <div class="row m-0">
+            <!-- ### Customer-reviews sub-page header begins here ### -->
+
+            <div class="col bg-info px-md-5 pb-5 main">
+              <div class="row sectionTxt pt-4 pb-5">
+                <div
+                  class="col-12 secHead p-2 mt-5 mb-3 bg-dark d-flex flex-wrap gap-3 justify-content-center"
+                >
+                  <img src="./images/sec_trust.png" />
+                  <div>We are trusted!</div>
+                </div>
+              </div>
+
+              <!-- ### Customer review 1 begins here ### -->
+
+              <div class="row gy-4 pb-4 px-4 bg-dark section">
+                <div class="col-lg-5 col-md-12 review d-flex p-3 bg-secondary">
+                  <div class="profile-pic">
+                    <img
+                      src="./images/customer_1.jpg"
+                      alt="Customer1"
+                      class="img-thumbnail"
+                    />
+                  </div>
+                  <div class="custName d-flex flex-column px-3">
+                    <div class="text-info">
+                      <h1>Emily</h1>
+                    </div>
+                    <p>30 min ago</p>
+                    <h5>Excellent</h5>
+                    <div class="stars">
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col ms-lg-3 p-4 bg-light text-dark revText">
+                  "The best cheeseburger i have ever tasted. Unbelieveable. The
+                  best nachos andburger i have ever tasted. My mother had a
+                  burger and i had one too so i like really really liked it."
+                </div>
+              </div>
+
+              <!-- ### Customer review 2 begins here ### -->
+
+              <div class="row gy-4 pb-4 px-4 mt-4 bg-dark section">
+                <div class="col-lg-5 col-md-12 review d-flex p-3 bg-secondary">
+                  <div class="profile-pic">
+                    <img
+                      src="./images/customer_2.jpg"
+                      alt="Customer2"
+                      class="img-thumbnail"
+                    />
+                  </div>
+                  <div class="custName d-flex flex-column px-3">
+                    <div class="text-info">
+                      <h1>John</h1>
+                    </div>
+                    <p>3 hours ago</p>
+                    <h5>Very good</h5>
+                    <div class="stars">
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col ms-lg-3 p-4 bg-light text-dark revText">
+                  "Super helpful and nice staff. Super helpful and nice staff.
+                  Good portions, filled everyone up. Enough options for the kids
+                  so they were satisfied as well."
+                </div>
+              </div>
+
+              <!-- ### Customer review 3 begins here ### -->
+
+              <div class="row gy-4 pb-4 px-4 mt-4 bg-dark section">
+                <div class="col-lg-5 col-md-12 review d-flex p-3 bg-secondary">
+                  <div class="profile-pic">
+                    <img
+                      src="./images/customer_3.jpg"
+                      alt="Customer3"
+                      class="img-thumbnail"
+                    />
+                  </div>
+                  <div class="custName d-flex flex-column px-3">
+                    <div class="text-info">
+                      <h1>Monica</h1>
+                    </div>
+                    <p>14 hours ago</p>
+                    <h5>Excellent</h5>
+                    <div class="stars">
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col ms-lg-3 p-4 bg-light text-dark revText">
+                  "My boyfriend and I went here 3 different times during our
+                  vacation stay in a hotel close by. Everytime, we had excellent
+                  service and food. The bartenders and server were very friendly
+                  and informative. They didn’t just give us great advice about
+                  the food and drink orders but also insight on our travel
+                  plans. I enjoyed their happy hour deals."
+                </div>
+              </div>
+
+              <!-- ### Customer review 4 begins here ### -->
+
+              <div class="row gy-4 pb-4 px-4 mt-4 bg-dark section">
+                <div class="col-lg-5 col-md-12 review d-flex p-3 bg-secondary">
+                  <div class="profile-pic">
+                    <img
+                      src="./images/customer_4.jpg"
+                      alt="Customer4"
+                      class="img-thumbnail"
+                    />
+                  </div>
+                  <div class="custName d-flex flex-column px-3">
+                    <div class="text-info">
+                      <h1>Carlos</h1>
+                    </div>
+                    <p>yesterday</p>
+                    <h5>Very good</h5>
+                    <div class="stars">
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col ms-lg-3 p-4 bg-light text-dark revText">
+                  "We ate here twice, both times for lunch and would definitely
+                  eat here again. They had a great variety of food at a
+                  reasonable price. The staff were friendly and the service was
+                  very prompt. It caters for all age groups and the outlook was
+                  fantastic. Both times we chose something different from the
+                  menu and we weren’t disappointed."
+                </div>
+              </div>
+
+              <!-- ### Customer review 5 begins here ### -->
+
+              <div class="row gy-4 pb-4 px-4 mt-4 bg-dark section">
+                <div class="col-lg-5 col-md-12 review d-flex p-3 bg-secondary">
+                  <div class="profile-pic">
+                    <img
+                      src="./images/customer_5.jpg"
+                      alt="Customer5"
+                      class="img-thumbnail"
+                    />
+                  </div>
+                  <div class="custName d-flex flex-column px-3">
+                    <div class="text-info">
+                      <h1>Tiffany</h1>
+                    </div>
+                    <p>yesterday</p>
+                    <h5>Excellent</h5>
+                    <div class="stars">
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                      <img src="./images/star.png" alt="star" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col ms-lg-3 p-4 bg-light text-dark revText">
+                  "Perfect for breakfast. There's a basic option or a fuller
+                  menu. We recommend the omelettes. Absolutely the best and
+                  their signature dish. They're also known for their pina
+                  coladas. Michelle, our waitress, was excellent. Seems to be
+                  always plenty of room, especially on the balcony."
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ######################## -->
+        <!-- ### Sub-Page Contact ### -->
+        <!-- ######################## -->
+
+        <div class="tab-pane fade" id="contact" aria-labelledby="contact-tab">
+          <div class="row m-0">
+            <!-- ### Contact sub-page header begins here ### -->
+
+            <div class="col bg-info px-md-5 pb-5 main">
+              <div class="row sectionTxt pt-4 pb-5">
+                <div class="col d-flex justify-content-center p-0">
+                  <div
+                    class="col-12 d-flex flex-wrap gap-3 secHead p-2 mt-5 mb-2 bg-dark"
+                  >
+                    <img src="./images/sec_contact.png" />
+                    <div>Contact</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- ### Contact form begins here ### -->
+
+              <div class="row p-4 px-2 bg-dark section">
+                <div class="col-lg-12">
+                  <div class="contact p-4 bg-secondary">
+                    <form id="contact-form">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_name">Firstname *</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Please enter your firstname *"
+                              required="required"
+                              data-error="Firstname is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_lastname">Lastname *</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Please enter your lastname *"
+                              required="required"
+                              data-error="Lastname is required."
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_email">Email *</label>
+                            <input
+                              type="email"
+                              class="form-control"
+                              placeholder="Please enter your email *"
+                              required="required"
+                              data-error="Valid email is required."
+                            />
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="form-group mb-3">
+                            <label for="form_phone">Phone-number</label>
+                            <input
+                              type="text"
+                              class="form-control"
+                              placeholder="Please enter your phone-number"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea
+                              class="form-control"
+                              placeholder="Write your message here."
+                              rows="4"
+                              required="required"
+                              data-error="Please, leave us a message."
+                            ></textarea>
+                          </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                          <input
+                            type="submit"
+                            class="btn btn-success btn-send pt-2 btn-block"
+                            value="Send Message"
+                          />
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- ### Footer begins here ### -->
+        <footer>
+          <div
+            class="col py-5 d-flex flex-column text-light align-items-center footer"
+          >
+            <div class="row">
+              <div class="col bg-info py-2">
+                <a href="index.html"
+                  ><div class="bg-dark px-5">Semintra's Burgatory</div></a
+                >
+              </div>
+            </div>
+            <div class="d-flex align-items-start gap-3">
+              <a href="https://web.whatsapp.com/" target="_blank"
+                ><img src="./images/whatsapp.png" alt="WhatsApp-Logo"
+              /></a>
+              <a href="https://twitter.com/" target="_blank"
+                ><img src="./images/twitter.png" alt="Twitter-Logo"
+              /></a>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><img src="./images/facebook.png" alt="Facebook-Logo"
+              /></a>
+              <a href="https://www.instagram.com/" target="_blank"
+                ><img src="./images/instagram.png" alt="Instagram-Logo"
+              /></a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

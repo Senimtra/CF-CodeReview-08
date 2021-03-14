@@ -1,0 +1,317 @@
+body {
+  background-color: #303030;
+  font-family: "Acme", sans-serif !important;
+  overflow-x: hidden;
+}
+
+.header {
+  font-size: 450%;
+  text-transform: uppercase;
+  background-color: #632900;
+}
+
+.header div img {
+  width: 10em;
+}
+
+.header div a {
+  color: white;
+  text-decoration: none;
+}
+
+.header div a img {
+  width: 1em;
+}
+
+.logo {
+  border-radius: 0.2em;
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.logo div {
+  border-radius: 0.2em;
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.heroImg {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  height: 53em;
+}
+
+.navbar {
+  background-color: transparent;
+  font-size: 250%;
+  cursor: pointer;
+}
+
+nav .nav li a {
+  color: white !important;
+}
+
+.nav-pills {
+  border-radius: 0.2em;
+}
+
+.nav-pills .pill-1 .nav-link:not(.active) {
+  background-color: #474747;
+  color: white;
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+  background-color: #474747;
+  color: white;
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+  background-color: #474747;
+  color: white;
+}
+
+.nav-pills .pill-1 .nav-link:hover {
+  background-color: #632900;
+  color: white;
+}
+
+.nav-pills .pill-2 .nav-link:hover {
+  background-color: #632900;
+  color: white;
+}
+
+.nav-pills .pill-3 .nav-link:hover {
+  background-color: #632900;
+  color: white;
+}
+
+.nav-pills .pill-1 .nav-link {
+  background-color: #212529;
+  color: white;
+}
+
+.nav-pills .pill-2 .nav-link {
+  background-color: #212529;
+  color: white;
+}
+
+.nav-pills .pill-3 .nav-link {
+  background-color: #212529;
+  color: white;
+}
+
+.mealBox {
+  content: "";
+  display: block;
+  background-color: grey;
+  /* ### initial ratio of 1:1 ### */
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  padding-top: 150%;
+}
+
+.mealText {
+  background-color: #632900;
+  color: white;
+  font-size: 120%;
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.grow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.description {
+  font-style: normal;
+  color: #eeded2;
+}
+
+.price {
+  font-size: 140%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 0.2em;
+}
+
+.secHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #eeded2;
+  border-radius: 0.15em;
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.secHead img {
+  height: 1.3em;
+}
+
+.section {
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+  border-radius: 0.5rem;
+}
+
+.sectionTxt {
+  font-size: 400%;
+}
+
+.starter1 {
+  background-image: url(../images/wings.jpg);
+  background-size: contain;
+}
+
+.starter2 {
+  background-image: url(../images/nachos.jpg);
+  background-size: cover;
+}
+
+.starter3 {
+  background-image: url(../images/shrimps.jpg);
+  background-size: cover;
+}
+
+.starter4 {
+  background-image: url(../images/salad.jpg);
+  background-size: cover;
+}
+
+.burgers1 {
+  background-image: url(../images/burgatory.jpg);
+  background-size: cover;
+}
+
+.burgers2 {
+  background-image: url(../images/pulledpork.jpg);
+  background-size: cover;
+}
+
+.burgers3 {
+  background-image: url(../images/cheese.jpg);
+  background-size: cover;
+}
+
+.burgers4 {
+  background-image: url(../images/veggie.jpg);
+  background-size: cover;
+}
+
+.dessert1 {
+  background-image: url(../images/cookies.jpg);
+  background-size: cover;
+}
+
+.dessert2 {
+  background-image: url(../images/cake.jpg);
+  background-size: cover;
+}
+
+.dessert3 {
+  background-image: url(../images/donuts.jpg);
+  background-size: cover;
+}
+
+.dessert4 {
+  background-image: url(../images/icecream.jpg);
+  background-size: cover;
+}
+
+.drinks1 {
+  background-image: url(../images/icetea.jpg);
+  background-size: cover;
+}
+
+.drinks2 {
+  background-image: url(../images/juice.jpg);
+  background-size: cover;
+}
+
+.drinks3 {
+  background-image: url(../images/water.jpg);
+  background-size: cover;
+}
+
+.drinks4 {
+  background-image: url(../images/beer.jpg);
+  background-size: cover;
+}
+
+.footer {
+  font-size: 300%;
+  text-transform: uppercase;
+  background-color: #632900;
+}
+
+.footer div {
+  border-radius: 0.2em;
+  -webkit-box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+          box-shadow: 0px 0.625em 0.813em -0.438em #000000;
+}
+
+.footer div div a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer div a img {
+  width: 0.7em;
+}
+
+.profile-pic img {
+  width: 10em;
+  height: 10em;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.review {
+  color: white;
+  border-radius: 0.5em;
+}
+
+.revText {
+  border-radius: 0.5em;
+  font-size: 130%;
+}
+
+.stars img {
+  width: 2em;
+}
+
+.contact {
+  font-size: 130%;
+  border-radius: 0.3em;
+}
+/*# sourceMappingURL=styles.css.map */
