@@ -1,0 +1,24 @@
+/* ### Container begins here ### */
+
+#container {
+    width: 618px;
+    height: 470px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url("./images/blog.jpg");
+    background-size: cover;
+}
+
+
+/* ### Sub-Headline begins here ### */
+
+h2 {
+    position: relative;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    top: -75px;
+}
+
+#container>* {
+    font-family: "Atma", cursive;
+}

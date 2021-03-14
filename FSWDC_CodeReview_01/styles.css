@@ -1,0 +1,189 @@
+/* ### Header / Footer bar color ### */
+
+.barcolor {
+    background-color: #CABBB7;
+}
+
+#wrapper {
+    margin: auto;
+    width: 750px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+body {
+    padding-top: 20px;
+    background-color: #999999;
+}
+
+
+/* ### Content container ### */
+
+#content {
+    background-color: white;
+    width: 750px;
+    height: 700px;
+    float: left;
+}
+
+
+/* ### Header begins here ### */
+
+#header {
+    height: 132px;
+}
+
+#header img {
+    max-width: 32%;
+    float: right;
+    padding: 25px 4.5% 0;
+}
+
+#header span {
+    font-size: 120%;
+    position: relative;
+    left: 3%;
+    top: 50%;
+}
+
+#header span a {
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ### Menu bar begins here ### */
+
+#menu {
+    width: 750px;
+    height: 43px;
+    background-color: #C65252;
+    float: right;
+}
+
+#menu ul {
+    position: relative;
+    width: 350px;
+    left: 330px;
+    bottom: 17px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+#menu ul li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 120%;
+    float: left;
+}
+
+
+/* ### Headline begins here ### */
+
+#headline {
+    width: 618px;
+    font-size: 300%;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+
+#headline p {
+    position: relative;
+    bottom: 15px;
+}
+
+
+/* ### Full width article begins here ### */
+
+#image.fullwidth {
+    height: 174px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+
+.fullwidth img {
+    width: 618px;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+}
+
+.fullwidth a {
+    text-align: center;
+    font-weight: bold;
+    font-size: 115%;
+    position: relative;
+    word-spacing: 0.5px;
+    bottom: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* ### Columns articles begin here ### */
+
+#left {
+    width: 37.75%;
+    margin-left: 66px;
+    position: relative;
+    bottom: 13px;
+    float: left;
+}
+
+#right {
+    width: 37.75%;
+    margin-left: 51px;
+    position: relative;
+    bottom: 13px;
+    float: left;
+}
+
+.column img {
+    position: relative;
+    top: 16px;
+    width: 100%;
+    max-height: 158px;
+}
+
+.column a {
+    font-size: 115%;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ### Footer begins here ### */
+
+#footer {
+    position: relative;
+    bottom: 34px;
+    height: 114px;
+    clear: both;
+}
+
+#footer img {
+    padding-top: 1.75%;
+    max-width: 20%;
+}
+
+#footer p {
+    font-weight: bold;
+    margin-top: 11px;
+    font-size: 75%;
+    border: none;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: black;
+}

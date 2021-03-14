@@ -1,0 +1,57 @@
+/* ### Container begins here ### */
+
+#container {
+    width: 618px;
+    height: 470px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url("./images/aboutme.jpg");
+    background-size: cover;
+}
+
+
+/* ### Sub-Headline begins here ### */
+
+h2 {
+    position: relative;
+    letter-spacing: 1px;
+    word-spacing: 6px;
+    top: -75px;
+}
+
+#container>* {
+    font-family: "Atma", cursive;
+}
+
+.small {
+    width: 200px;
+    height: 175px;
+    background-color: #524a4aa1;
+}
+
+#aboutme1 {
+    position: relative;
+    top: -50px;
+    left: 30px;
+}
+
+#aboutme2 {
+    position: relative;
+    left: 30px;
+}
+
+#aboutme3 {
+    width: 280px;
+    height: 385px;
+    top: -399px;
+    right: -280px;
+    position: relative;
+    background-color: #292929de;
+    color: beige;
+    font-size: 90%;
+}
+
+#aboutme3 {
+    padding: 15px;
+    text-align: justify;
+}
