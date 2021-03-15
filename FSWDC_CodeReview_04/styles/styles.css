@@ -18,34 +18,6 @@ body {
   border-radius: 0.3em;
 }
 
-.navbar {
-  background-color: #f1eedf;
-  border-radius: 0.3em;
-  -webkit-box-shadow: 0px 3px 4px black;
-          box-shadow: 0px 3px 4px black;
-  padding-top: 0.1em;
-}
-
-.navbar img {
-  position: absolute;
-  width: 6.5em;
-  left: 8em;
-  bottom: -0.4em;
-}
-
-.btn {
-  -webkit-box-shadow: 0px 2px 3px black;
-          box-shadow: 0px 2px 3px black;
-}
-
-.container {
-  border-radius: 0.5em;
-  background-color: #5c0000;
-  padding-bottom: 0.75em;
-  -webkit-box-shadow: 0px 3px 4px black;
-          box-shadow: 0px 3px 4px black;
-}
-
 .topheader {
   padding-top: 0.8em;
 }
@@ -67,12 +39,40 @@ body {
           box-shadow: 0px 2px 3px black;
 }
 
+.navbar {
+  background-color: #f1eedf;
+  border-radius: 0.3em;
+  -webkit-box-shadow: 0px 3px 4px black;
+          box-shadow: 0px 3px 4px black;
+  padding-top: 0.1em;
+}
+
+.navbar img {
+  position: absolute;
+  width: 6.5em;
+  left: 8em;
+  bottom: -0.4em;
+}
+
+.btn {
+  -webkit-box-shadow: 0px 2px 3px black;
+          box-shadow: 0px 2px 3px black;
+}
+
 .navi {
   background-color: #919080;
   -webkit-box-shadow: 0px 3px 4px black;
           box-shadow: 0px 3px 4px black;
   border-radius: 0.3em;
   padding: 0.3em;
+}
+
+.container {
+  border-radius: 0.5em;
+  background-color: #5c0000;
+  padding-bottom: 0.75em;
+  -webkit-box-shadow: 0px 3px 4px black;
+          box-shadow: 0px 3px 4px black;
 }
 
 #content {
