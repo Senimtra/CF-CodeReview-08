@@ -2,10 +2,6 @@ body {
   background-image: url(./images/dark_wood.png);
 }
 
-body * {
-  border: 1px solid red;
-}
-
 .font1 {
   font-family: "Libre Barcode 39 Text", cursive;
   font-size: 200%;

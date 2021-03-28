@@ -1,1 +1,1 @@
-{"version":3,"sources":["./styles.scss"],"names":[],"mappings":"AAAA;EACE;AACF,C","file":"styles.css","sourcesContent":["body {\n  background-image: url(/assets/images/backGround.jpg);\n}\n"],"sourceRoot":"webpack:///"}
+{"version":3,"sources":["./styles.scss"],"names":[],"mappings":"AAAA;EACE;AACF,C","file":"styles.css","sourcesContent":["body {\r\n  background-image: url(/assets/images/backGround.jpg);\r\n}\r\n"],"sourceRoot":"webpack:///"}
