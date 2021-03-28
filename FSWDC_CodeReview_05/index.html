@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ### Embed Google-font Amatic-SC ### -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ### Link Bootstrap 5.0 CSS ### -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <!-- ### Link own CSS file ### -->
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+    <title>Semintra Code Review 05</title>
+  </head>
+  <body>
+    <div class="container my-5 mx-auto">
+      <div class="row-fluid topheader mt-5">
+        <header>
+          <div class="row heroTop mx-4">
+            <div class="col hero">City Blog New York</div>
+          </div>
+
+          <!-- ### Nav-bar begins here ### -->
+
+          <nav class="navbar navbar-expand-sm navbar-light mx-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li>
+                    <button id="home" class="btn" type="submit">Home</button>
+                  </li>
+
+                  <li class="nav-item">
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="navbarDropdown"
+                    ></ul>
+                    <div class="dropdown">
+                      <button
+                        class="btn ms-3 dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        last visits
+                      </button>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="dropdownMenuButton1"
+                      >
+                        <li>
+                          <a class="dropdown-item" id="ascending">ascending</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" id="descending"
+                            >descending</a
+                          >
+                        </li>
+                        <li><hr class="dropdown-divider" /></li>
+                        <li>
+                          <a class="dropdown-item" id="revert">revert</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+
+      <!-- ### Bootstrap Carousel begins here ### -->
+
+      <div class="carouBorder mx-4">
+        <!-- <div class="caroubg"> -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-item active carouselImg">
+            <img src="./images/eve_gallery.jpg" />
+            <img src="./images/eve_circus.jpg" />
+            <img src="./images/eve_concert.jpg" />
+            <img src="./images/eve_nascar.jpg" />
+            <img src="./images/eve_webdev.jpg" />
+            <img src="./images/eve_festival.jpg" />
+            <img src="./images/eve_congress.jpg" />
+            <img src="./images/eve_baseball.jpg" />
+            <img src="./images/loc_centralpark.jpg" />
+            <img src="./images/loc_empirestate.jpg" />
+          </div>
+          <div class="carousel-item carouselImg">
+            <img src="./images/loc_brooklynbridge.jpg" />
+            <img src="./images/loc_centralpark.jpg" />
+            <img src="./images/loc_empirestate.jpg" />
+            <img src="./images/loc_guggenheim.jpg" />
+            <img src="./images/loc_rockecenter.jpg" />
+            <img src="./images/loc_statueliberty.jpg" />
+            <img src="./images/loc_timessquare.jpg" />
+            <img src="./images/loc_museummodern.jpg" />
+            <img src="./images/rest_karmafarmer.jpg" />
+            <img src="./images/rest_kingsize.jpg" />
+          </div>
+          <div class="carousel-item carouselImg">
+            <img src="./images/rest_anyamanee.jpg" />
+            <img src="./images/rest_arcticdeer.jpg" />
+            <img src="./images/rest_bigpalace.jpg" />
+            <img src="./images/rest_karmafarmer.jpg" />
+            <img src="./images/rest_kingsize.jpg" />
+            <img src="./images/rest_modesty.jpg" />
+            <img src="./images/rest_shazam.jpg" />
+            <img src="./images/rest_tomsdiner.jpg" />
+            <img src="./images/eve_baseball.jpg" />
+            <img src="./images/loc_centralpark.jpg" />
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+
+      <!-- ### Main-content begins here ### -->
+
+      <main>
+        <div id="content" class="row d-flex text-secondary m-4"></div>
+      </main>
+
+      <!-- ### Footer begins here ### -->
+
+      <footer>
+        <div class="row footerOut mx-4">
+          <div class="col footerIn">
+            City Blog New York
+            <img src="./images/skyline.png" />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- ### Link Bootstrap 5.0 JavaScript-Bundle ### -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- ### Link own JavaScript files ### -->
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
