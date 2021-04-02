@@ -3,12 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LogoComponent } from './logo/logo.component';
-import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
+import { HeadBarComponent } from './head-bar/head-bar.component';
+import { FooBarComponent } from './foo-bar/foo-bar.component';
 
 @NgModule({
-  declarations: [AppComponent, LogoComponent, NavbarComponent, HomeComponent],
+  declarations: [AppComponent, HomeComponent, HeadBarComponent, FooBarComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],

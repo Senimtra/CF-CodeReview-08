@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "foo-bar.component.scss"
+    ],
+    "names": [],
+    "file": "foo-bar.component.css"
+}
