@@ -1,6 +1,6 @@
 .container-fluid {
-  border: 1px solid green;
-  height: 20vh;
+  // border: 1px solid green;
+  height: 18vh;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -8,6 +8,19 @@
   // flex-wrap: nowrap;
   // background-color: black;
   // opacity: 0.6;
+}
+
+.itsMe {
+  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
+  // ### setting alpha just to the background ###
+  background: rgba(0, 0, 0, 0.8);
+  border: 0.1rem solid rgb(110, 175, 5);
+  border-radius: 0.3rem;
+  img {
+    height: calc(0.8vw + 0.8vh + 0.4vmin);
+    position: relative;
+    top: -0.05rem;
+  }
 }
 
 // ### Media query to set new height when header is not displayed ###
@@ -25,15 +38,3 @@
 //     // opacity: 0.6;
 //   }
 // }
-
-.itsMe {
-  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  // ### setting alpha just to the background ###
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 0.3rem;
-  img {
-    height: calc(0.8vw + 0.8vh + 0.4vmin);
-    position: relative;
-    top: -0.05rem;
-  }
-}

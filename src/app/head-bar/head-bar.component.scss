@@ -1,6 +1,6 @@
 .container-fluid {
-  border: 1px solid green;
-  height: 20vh;
+  // border: 1px solid green;
+  height: 22vh;
 
   display: flex;
 
@@ -10,8 +10,9 @@
 
 .hello {
   font-size: calc(2vw + 2vh + 1vmin);
-  // ### setting alpha just to the background ###
-  background: rgba(0, 0, 0, 0.5);
+  // // ### setting alpha just to the background ###
+  background: rgba(0, 0, 0, 0.8);
+  border: 0.1rem solid rgb(110, 175, 5);
   border-radius: 0.3rem;
   // img {
   //   height: calc(0.8vw + 0.8vh + 0.4vmin);

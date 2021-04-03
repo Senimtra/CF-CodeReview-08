@@ -1,5 +1,18 @@
 .container-fluid {
-  border: 1px solid green;
-  height: 20vh;
+  height: 22vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: white;
+}
+
+.hello {
+  font-size: calc(2vw + 2vh + 1vmin);
+  background: rgba(0, 0, 0, 0.8);
+  border: 0.1rem solid #6eaf05;
+  border-radius: 0.3rem;
 }
 /*# sourceMappingURL=head-bar.component.css.map */
