@@ -1,1 +1,8 @@
-/* No CSS *//*# sourceMappingURL=navbar.component.css.map */
+.navbar {
+  font-size: calc(1vw + 1vh + 0.5vmin);
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+  border-radius: 0.3rem;
+}
+/*# sourceMappingURL=navbar.component.css.map */
