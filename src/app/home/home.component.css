@@ -1,6 +1,7 @@
-.container {
+.container-fluid {
   border: 1px solid green;
-  height: 70vh;
+  height: 60vh;
   background-color: #222222;
+  width: 100vw;
 }
 /*# sourceMappingURL=home.component.css.map */

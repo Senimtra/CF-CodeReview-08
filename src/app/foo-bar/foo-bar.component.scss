@@ -1,4 +1,33 @@
-.container {
+.container-fluid {
   border: 1px solid green;
-  height: 15vh;
+  height: 20vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: white;
+  // flex-wrap: nowrap;
+  // background-color: black;
+  // opacity: 0.6;
+}
+
+// ### Media query to set new height when header is not displayed ###
+
+// @media screen and (max-width: 768px) {
+//   .container-fluid {
+//     border: 1px solid green;
+//     height: 40vh;
+//     display: flex;
+//     justify-content: flex-end;
+//     align-items: flex-end;
+//     // font-size: 10%;
+//     color: green;
+//     // background-color: black;
+//     // opacity: 0.6;
+//   }
+// }
+
+.itsMe {
+  font-size: calc(0.7vw + 0.7vh + 0.35vmin);
+  // ### setting alpha just to the background ###
+  background: rgba(0, 0, 0, 0.6);
 }

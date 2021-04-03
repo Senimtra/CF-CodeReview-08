@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,IAAI;CACb",
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,eAAe;EACvB,MAAM,EAAE,IAAI;CACb",
     "sources": [
         "head-bar.component.scss"
     ],
