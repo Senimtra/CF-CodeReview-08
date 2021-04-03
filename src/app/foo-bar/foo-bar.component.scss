@@ -2,7 +2,7 @@
   // border: 1px solid green;
   height: 16vh;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: flex-end;
   color: #e4e3c8;
   // flex-wrap: nowrap;
@@ -11,6 +11,20 @@
 }
 
 .itsMe {
+  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
+  // ### setting alpha just to the background ###
+  background: rgba(0, 0, 0, 0.8);
+  // border: 0.1rem solid #e4e3c8;
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 2px black;
+  img {
+    height: calc(0.8vw + 0.8vh + 0.4vmin);
+    position: relative;
+    top: -0.05rem;
+  }
+}
+
+.version {
   font-size: calc(0.6vw + 0.6vh + 0.3vmin);
   // ### setting alpha just to the background ###
   background: rgba(0, 0, 0, 0.8);
