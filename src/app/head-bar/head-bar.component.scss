@@ -1,4 +1,21 @@
 .container-fluid {
   border: 1px solid green;
   height: 20vh;
+
+  display: flex;
+
+  align-items: flex-start;
+  color: white;
+}
+
+.hello {
+  font-size: calc(2vw + 2vh + 1vmin);
+  // ### setting alpha just to the background ###
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.3rem;
+  // img {
+  //   height: calc(0.8vw + 0.8vh + 0.4vmin);
+  //   position: relative;
+  //   top: -0.05rem;
+  // }
 }

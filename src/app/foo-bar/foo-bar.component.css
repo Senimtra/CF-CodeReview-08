@@ -14,9 +14,14 @@
 }
 
 .itsMe {
-  font-size: calc(0.7vw + 0.7vh + 0.35vmin);
+  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
   background: rgba(0, 0, 0, 0.5);
   border-radius: 0.3rem;
-  font-family: "Fira Code", monospace;
+}
+
+.itsMe img {
+  height: calc(0.8vw + 0.8vh + 0.4vmin);
+  position: relative;
+  top: -0.05rem;
 }
 /*# sourceMappingURL=foo-bar.component.css.map */
