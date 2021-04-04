@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { HeadBarComponent } from './head-bar/head-bar.component';
 import { FooBarComponent } from './foo-bar/foo-bar.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     HeadBarComponent,
     FooBarComponent,
     NavbarComponent,
+    ContactComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
