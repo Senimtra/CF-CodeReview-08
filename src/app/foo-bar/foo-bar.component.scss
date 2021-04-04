@@ -1,20 +1,15 @@
 .container-fluid {
-  // border: 1px solid green;
   height: 17vh;
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   color: #e4e3c8;
-  // flex-wrap: nowrap;
-  // background-color: black;
-  // opacity: 0.6;
 }
 
-.itsMe {
+div[class^="itsMe"] {
   font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  // ### setting alpha just to the background ###
   background: rgba(0, 0, 0, 0.8);
-  // border: 0.1rem solid #e4e3c8;
   border-radius: 0.3rem;
   box-shadow: 0px 1px 2px black;
   img {
@@ -24,11 +19,9 @@
   }
 }
 
-.version {
+div[class^="version"] {
   font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  // ### setting alpha just to the background ###
   background: rgba(0, 0, 0, 0.8);
-  // border: 0.1rem solid #e4e3c8;
   border-radius: 0.3rem;
   box-shadow: 0px 1px 2px black;
   img {
@@ -38,18 +31,24 @@
   }
 }
 
-// ### Media query to set new height when header is not displayed ###
+// ### Media query to show the longer version badge when container wraps ###
 
-// @media screen and (max-width: 768px) {
-//   .container-fluid {
-//     border: 1px solid green;
-//     height: 40vh;
-//     display: flex;
-//     justify-content: flex-end;
-//     align-items: flex-end;
-//     // font-size: 10%;
-//     color: green;
-//     // background-color: black;
-//     // opacity: 0.6;
-//   }
-// }
+@media screen and (max-width: 400px) {
+  .version1 {
+    display: inline !important;
+  }
+  .version2 {
+    display: none;
+  }
+}
+
+// ### Media query to show the longer signature when container wraps ###
+
+@media screen and (max-width: 400px) {
+  .itsMe1 {
+    display: inline !important;
+  }
+  .itsMe2 {
+    display: none;
+  }
+}

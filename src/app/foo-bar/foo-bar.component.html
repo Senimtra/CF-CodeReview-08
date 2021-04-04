@@ -1,24 +1,66 @@
 <div class="container-fluid p-3">
-  <div class="version pt-2 pb-1 px-2">
-    <span style="color: turquoise">[</span>a1.0<span style="color: turquoise"
+  <!-- ### Version badge for >= sm ### -->
+
+  <div class="version1 pt-2 pb-1 px-2 d-none d-sm-block">
+    <span style="color: turquoise">[</span>alpha v1.0<span
+      style="color: turquoise"
       >]</span
     >
   </div>
-  <div class="itsMe pt-2 pb-1 px-2">
-    This is coded by&nbsp;<span style="color: rgb(255, 88, 241)">&#123;</span
+
+  <!-- ### Version badge for < sm until media query ### -->
+
+  <div class="version2 pt-2 pb-1 px-2 d-sm-none">
+    <span style="color: turquoise">[</span>a_v1.0<span style="color: turquoise"
+      >]</span
+    >
+  </div>
+
+  <!-- ### Signature for >= md ### -->
+
+  <div class="itsMe1 pt-2 pb-1 px-2 d-none d-md-block">
+    <span style="color: red">::</span>&nbsp;This is coded by&nbsp;<span
+      style="color: rgb(255, 88, 241)"
+      >&#123;</span
     ><span style="color: yellow">&#123;</span>me<span style="color: yellow"
       >&#125;</span
-    ><span style="color: rgb(255, 88, 241)">&#125;</span>&nbsp;using HTML<img
-      src="assets/icons/html.svg"
-    />, CSS<img src="assets/icons/css.svg" />&nbsp;<img
-      src="assets/icons/sass.svg"
-    />, <img src="assets/icons/javascript.svg" />&nbsp;<img
+    ><span style="color: rgb(255, 88, 241)">&#125;</span>&nbsp;using
+    HTML&nbsp;<img src="assets/icons/html.svg" />, CSS&nbsp;<img
+      src="assets/icons/css.svg"
+    />,&nbsp;<img src="assets/icons/sass.svg" />,
+    <img src="assets/icons/javascript.svg" />,&nbsp;<img
       src="assets/icons/typescript.svg"
-    />, <img src="assets/icons/bootstrap.svg" /><span style="font-size: 0.5rem"
-      >5.0</span
+    />, <img src="assets/icons/bootstrap.svg" /><span
+      style="font-size: calc(0.4vw + 0.4vh + 0.2vmin)"
+      >&nbsp;5.0</span
     >
-    and <img src="assets/icons/angular.svg" /><span style="font-size: 0.5rem"
-      >11</span
-    >.
+    and <img src="assets/icons/angular.svg" /><span
+      style="font-size: calc(0.4vw + 0.4vh + 0.2vmin)"
+      >&nbsp;11</span
+    ><span style="color: red">&nbsp;::</span>
+  </div>
+
+  <!-- ### Signature for < md until media query ### -->
+
+  <div class="itsMe2 pt-2 pb-1 px-2 d-md-none">
+    <span style="color: red">::</span>&nbsp;Coded by&nbsp;<span
+      style="color: rgb(255, 88, 241)"
+      >&#123;</span
+    ><span style="color: yellow">&#123;</span>me<span style="color: yellow"
+      >&#125;</span
+    ><span style="color: rgb(255, 88, 241)">&#125;</span>&nbsp;using&nbsp;<img
+      src="assets/icons/html.svg"
+    />&nbsp;<img src="assets/icons/css.svg" />&nbsp;<img
+      src="assets/icons/sass.svg"
+    />&nbsp;<img src="assets/icons/javascript.svg" />&nbsp;<img
+      src="assets/icons/typescript.svg"
+    />&nbsp;<img src="assets/icons/bootstrap.svg" /><span
+      style="font-size: calc(0.4vw + 0.4vh + 0.2vmin)"
+      >&nbsp;5.0</span
+    >
+    and <img src="assets/icons/angular.svg" /><span
+      style="font-size: calc(0.4vw + 0.4vh + 0.2vmin)"
+      >&nbsp;11</span
+    ><span style="color: red">&nbsp;::</span>
   </div>
 </div>
