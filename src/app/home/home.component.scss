@@ -1,5 +1,5 @@
 .container-fluid {
-  border: 1px solid green;
+  border: 0.5rem solid green;
   height: 60vh;
   background: rgba(0, 0, 0, 0.8);
   // border: 0.3rem solid #e4e3c8;
@@ -8,7 +8,7 @@
   width: 100vw;
   color: #e4e3c8;
   overflow: scroll;
-  display: flex;
+  // display: flex;
   justify-content: flex-start;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -28,5 +28,10 @@
 
 .card {
   background-color: rgb(73, 73, 73);
-  height: 25vh;
+  height: 29vh;
+}
+
+.fixCol {
+  // position: fixed;
+  // left: -100px;
 }
