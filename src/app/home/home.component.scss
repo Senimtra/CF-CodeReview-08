@@ -1,5 +1,5 @@
 .container-fluid {
-  // border: 1px solid green;
+  border: 1px solid green;
   height: 60vh;
   background: rgba(0, 0, 0, 0.8);
   // border: 0.3rem solid #e4e3c8;
@@ -8,8 +8,25 @@
   width: 100vw;
   color: #e4e3c8;
   overflow: scroll;
+  display: flex;
+  justify-content: flex-start;
 }
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.card-text {
+  color: black;
+  font-size: 0.5rem;
+}
+
+.card {
+  background-color: rgb(73, 73, 73);
+  height: 25vh;
 }
