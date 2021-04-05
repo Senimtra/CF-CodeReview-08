@@ -6,21 +6,27 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  clickCounter: number = 0;
+  spinCounter: number = 0;
 
   constructor() {}
 
-  // countClick() {
-  //   this.clickCounter++;
-  // }
+  countSpin() {
+    this.spinCounter++;
+  }
 
   scroll(el: HTMLElement) {
-    el.scrollIntoView();
+    el.scrollIntoView({
+      behavior: 'smooth',
+      block: 'nearest',
+      inline: 'start',
+    });
   }
 
   // countClick() {
   //   document.querySelector('div.row').scrollLeft += 500;
   // }
+
+  // scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'start' })
 
   ngOnInit(): void {}
 }
