@@ -7,11 +7,11 @@
       -ms-flex-align: end;
           align-items: flex-end;
   color: #e4e3c8;
-  border: 1px solid green;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .blockScroll {
-  border: 1px solid purple;
   font-size: 0.8rem;
 }
 
@@ -23,7 +23,6 @@
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100%;
-  border: 1px solid purple;
 }
 
 .ver,
@@ -33,5 +32,20 @@
   border-radius: 0.3rem;
   -webkit-box-shadow: 0px 1px 2px black;
           box-shadow: 0px 1px 2px black;
+}
+
+.ver img,
+.sigNature img {
+  height: calc(0.8vw + 0.8vh + 0.4vmin);
+  position: relative;
+  top: -0.05rem;
+}
+
+.verCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 /*# sourceMappingURL=foo-bar.component.css.map */

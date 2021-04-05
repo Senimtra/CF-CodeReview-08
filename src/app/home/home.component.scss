@@ -37,9 +37,20 @@
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
   margin-right: 0.5rem;
+  img {
+    display: block;
+    width: 100%;
+  }
 }
 
 .blockScroll {
   // border: 1px solid purple;
   font-size: 0.8rem;
+}
+
+#cr1 {
+  width: 10vw;
+  background-image: url(/assets/images/CodeReview01.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
