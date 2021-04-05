@@ -42,6 +42,10 @@ div[class^="version"] img {
   top: -0.05rem;
 }
 
+.blockScroll {
+  font-size: 0.8rem;
+}
+
 @media screen and (max-width: 400px) {
   .version1 {
     display: inline !important;
