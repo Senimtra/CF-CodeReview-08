@@ -1,4 +1,5 @@
-<div class="container-fluid">
+<div (click)="scroll(target)" class="container-fluid">
+  <div class="frame" #scrollframe></div>
   <div class="row">
     <div class="card" style="width: 18rem">
       <img src="..." class="card-img-top" alt="..." />
@@ -9,6 +10,14 @@
         </p>
       </div>
     </div>
+
+    <div class="container">
+      <p>
+        You've clicked
+        <span class="btn btn-danger"> {{ clickCounter }} times</span>
+      </p>
+    </div>
+
     <div class="card" style="width: 18rem">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
@@ -16,6 +25,24 @@
       </div>
     </div>
     <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">Some quick example text.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">Some quick example text.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">Some quick example text.</p>
+      </div>
+    </div>
+    <div #target class="card" style="width: 18rem">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
         <p class="card-text">Some quick example text.</p>
@@ -23,6 +50,24 @@
     </div>
   </div>
   <div class="row">
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">Some quick example text.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">Some quick example text.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <p class="card-text">Some quick example text.</p>
+      </div>
+    </div>
     <div class="card" style="width: 18rem">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
