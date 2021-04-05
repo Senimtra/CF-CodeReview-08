@@ -1,4 +1,7 @@
 .container-fluid {
+  border-left: 0.8rem solid rgba(0, 0, 0, 0);
+  border-top: 0.4rem solid rgba(0, 0, 0, 0);
+  border-bottom: 0.4rem solid rgba(0, 0, 0, 0);
   height: 60vh;
   background: rgba(0, 0, 0, 0.8);
   border-radius: 0.3rem;
@@ -7,10 +10,35 @@
   width: 100vw;
   color: #e4e3c8;
   overflow: scroll;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  height: 50%;
+}
+
+.card-text {
+  color: black;
+  font-size: 0.7rem;
+}
+
+.card {
+  background-color: #494949;
+  overflow: hidden;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+  margin-right: 0.5rem;
 }
 /*# sourceMappingURL=home.component.css.map */
