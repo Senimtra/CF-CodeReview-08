@@ -1,7 +1,6 @@
-
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
-@import '~@angular/material/theming';
+@import "~@angular/material/theming";
 // Plus imports for other components in your app.
 
 // Include the common styles for Angular Material. We include this here so that you only
@@ -20,13 +19,15 @@ $portfolio-warn: mat-palette($mat-red);
 
 // Create the theme object. A theme consists of configurations for individual
 // theming systems such as "color" or "typography".
-$portfolio-theme: mat-light-theme((
-  color: (
-    primary: $portfolio-primary,
-    accent: $portfolio-accent,
-    warn: $portfolio-warn,
+$portfolio-theme: mat-light-theme(
+  (
+    color: (
+      primary: $portfolio-primary,
+      accent: $portfolio-accent,
+      warn: $portfolio-warn,
+    ),
   )
-));
+);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component
@@ -49,6 +50,10 @@ $portfolio-theme: mat-light-theme((
   transform: scale(1.007);
 }
 
+.wow {
+  height: 100vw;
+}
+
 .wrapper {
   // position: fixed;
   left: 0;
@@ -60,5 +65,11 @@ $portfolio-theme: mat-light-theme((
   font-family: "Fira Code", monospace;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

@@ -17,8 +17,8 @@ export class HomeComponent implements OnInit {
   scroll(el: HTMLElement) {
     el.scrollIntoView({
       behavior: 'smooth',
-      block: 'nearest',
-      inline: 'start',
+      // block: 'nearest',
+      // inline: 'start',
     });
   }
 
