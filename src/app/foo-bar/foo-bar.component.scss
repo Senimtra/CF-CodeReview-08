@@ -1,35 +1,10 @@
-.container-fluid {
+.footBar {
   height: 17vh;
   display: flex;
-  flex-wrap: wrap-reverse;
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   color: #e4e3c8;
-}
-
-div[class^="itsMe"] {
-  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 0.3rem;
-  box-shadow: 0px 1px 2px black;
-  img {
-    height: calc(0.8vw + 0.8vh + 0.4vmin);
-    position: relative;
-    top: -0.05rem;
-  }
-}
-
-div[class^="version"] {
-  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 0.3rem;
-  box-shadow: 0px 1px 2px black;
-  // border: 1px solid purple;
-  img {
-    height: calc(0.8vw + 0.8vh + 0.4vmin);
-    position: relative;
-    top: -0.05rem;
-  }
+  // border: 1px solid green;
+  flex-wrap: nowrap;
 }
 
 .blockScroll {
@@ -37,24 +12,63 @@ div[class^="version"] {
   font-size: 0.8rem;
 }
 
+.itsMe {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  // border: 1px solid purple;
+}
+
+.ver,
+.sigNature {
+  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.3rem;
+  box-shadow: 0px 1px 2px black;
+  img {
+    height: calc(0.8vw + 0.8vh + 0.4vmin);
+    position: relative;
+    top: -0.05rem;
+  }
+  // border: 1px solid purple;
+}
+
+.verCont {
+  display: flex;
+  flex-wrap: nowrap;
+  // border: 1px solid yellow;
+}
+
+// div[class^="itsMe"] {
+//   font-size: calc(0.6vw + 0.6vh + 0.3vmin);
+//   background: rgba(0, 0, 0, 0.8);
+//   border-radius: 0.3rem;
+//   box-shadow: 0px 1px 2px black;
+//   img {
+//     height: calc(0.8vw + 0.8vh + 0.4vmin);
+//     position: relative;
+//     top: -0.05rem;
+//   }
+// }
+
 // ### Media query to show the longer version badge when container wraps ###
 
-@media screen and (max-width: 400px) {
-  .version1 {
-    display: inline !important;
-  }
-  .version2 {
-    display: none;
-  }
-}
+// @media screen and (max-width: 400px) {
+//   .version1 {
+//     display: inline !important;
+//   }
+//   .version2 {
+//     display: none;
+//   }
+// }
 
 // ### Media query to show the longer signature when container wraps ###
 
-@media screen and (max-width: 400px) {
-  .itsMe1 {
-    display: inline !important;
-  }
-  .itsMe2 {
-    display: none;
-  }
-}
+// @media screen and (max-width: 400px) {
+//   .itsMe1 {
+//     display: inline !important;
+//   }
+//   .itsMe2 {
+//     display: none;
+//   }
+// }

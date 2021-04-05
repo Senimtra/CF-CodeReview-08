@@ -1,16 +1,17 @@
 .container-fluid {
-  border-left: 0.8rem solid rgba(0, 0, 0, 0);
+  border-left: 0.7rem solid rgba(0, 0, 0, 0);
   border-top: 0.4rem solid rgba(0, 0, 0, 0);
   border-bottom: 0.4rem solid rgba(0, 0, 0, 0);
   height: 60vh;
   background: rgba(0, 0, 0, 0.8);
   // border: 0.3rem solid #e4e3c8;
-  border-radius: 0.3rem;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
   box-shadow: 0px 1px 2px black;
   width: 100vw;
   color: #e4e3c8;
-  // overflow: hidden;
-  overflow: scroll;
+  overflow-y: hidden;
+  // overflow: scroll;
   // display: flex;
   justify-content: flex-start;
 }

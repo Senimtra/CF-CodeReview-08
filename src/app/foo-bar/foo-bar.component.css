@@ -1,66 +1,37 @@
-.container-fluid {
+.footBar {
   height: 17vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap-reverse;
-      flex-wrap: wrap-reverse;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   color: #e4e3c8;
-}
-
-div[class^="itsMe"] {
-  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 0.3rem;
-  -webkit-box-shadow: 0px 1px 2px black;
-          box-shadow: 0px 1px 2px black;
-}
-
-div[class^="itsMe"] img {
-  height: calc(0.8vw + 0.8vh + 0.4vmin);
-  position: relative;
-  top: -0.05rem;
-}
-
-div[class^="version"] {
-  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-  background: rgba(0, 0, 0, 0.8);
-  border-radius: 0.3rem;
-  -webkit-box-shadow: 0px 1px 2px black;
-          box-shadow: 0px 1px 2px black;
-}
-
-div[class^="version"] img {
-  height: calc(0.8vw + 0.8vh + 0.4vmin);
-  position: relative;
-  top: -0.05rem;
+  border: 1px solid green;
 }
 
 .blockScroll {
+  border: 1px solid purple;
   font-size: 0.8rem;
 }
 
-@media screen and (max-width: 400px) {
-  .version1 {
-    display: inline !important;
-  }
-  .version2 {
-    display: none;
-  }
+.itsMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100%;
+  border: 1px solid purple;
 }
 
-@media screen and (max-width: 400px) {
-  .itsMe1 {
-    display: inline !important;
-  }
-  .itsMe2 {
-    display: none;
-  }
+.ver,
+.sigNature {
+  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.3rem;
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
 }
 /*# sourceMappingURL=foo-bar.component.css.map */
