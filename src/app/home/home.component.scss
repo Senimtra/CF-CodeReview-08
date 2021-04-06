@@ -60,10 +60,7 @@
   margin-right: 0.3vh;
   // border-top-right-radius: 0;
   // border-bottom-right-radius: 0;
-  background-image: linear-gradient(
-      rgba(39, 39, 39, 0.5),
-      rgba(39, 39, 39, 0.5)
-    ),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
     url("/assets/images/tile_vert.jpg");
 }
 
@@ -79,7 +76,7 @@
     // border: 1px solid purple;
     display: inline;
   }
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
     url("/assets/images/tile_vert.jpg");
   padding: 1vh;
 }
