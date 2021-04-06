@@ -37,10 +37,6 @@
   margin-top: 0.3rem;
   margin-bottom: 0.3rem;
   margin-right: 0.5rem;
-  img {
-    display: block;
-    width: 100%;
-  }
 }
 
 .blockScroll {
@@ -49,8 +45,15 @@
 }
 
 #cr1 {
-  width: 10vw;
-  background-image: url(/assets/images/CodeReview01.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 21.52vh;
+  img {
+    border-radius: 0.2rem;
+    width: 20.42vh;
+    height: 26vh;
+    // display: block;
+    // width: 100%;
+  }
 }
