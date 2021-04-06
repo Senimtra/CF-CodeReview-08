@@ -14,11 +14,12 @@
             Code <span style="color: rgb(143, 224, 235)">Review</span>
           </div>
           <div class="crSubTitle">
-            week<span style="color: rgb(255, 88, 241)">#1</span>
+            <div class="crTime">t<span style="color: red">:</span>1d</div>
+            <div>week<span style="color: rgb(255, 88, 241)">#1</span></div>
           </div>
         </div>
         <div class="crTask p-1 px-2">
-          <span style="color: rgb(255, 136, 0)">-></span> Basic Website
+          <span style="color: rgb(255, 136, 0)">-></span>rebuild Basic Website
         </div>
         <div class="crTec">
           <img src="assets/icons/html.svg" /><img src="assets/icons/css.svg" />
@@ -78,17 +79,14 @@
     <!-- ### Row Two begins here ### -->
 
     <div class="row">
-      <div class="card" style="width: 30rem">
-        <div class="card-body">
-          <p class="card-text">
-            /* USER-NOTE: <button (click)="scroll(end)">R</button
-            ><br /><br />Actually the whole main-element should scroll
-            left/right on Mouse-wheel up/down. I made it work in JS, but
-            unfortunately couldn't do so in Angular yet (Wheel used
-            {{ spinCounter }} times). In the meantime click the buttons, please.
-            */
-          </p>
-        </div>
+      <div id="conStruct1" class="card">
+        <button class="btn btn-light disabled bg-danger">
+          scroll<br />
+          {{ spinCounter }}</button
+        ><button class="btn btn-light disabled bg-danger">not<br />yet</button
+        ><button class="btn btn-dark click" (click)="scroll(end)">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
       </div>
       <div class="card" style="width: 18rem">
         <div class="card-body">
@@ -108,7 +106,7 @@
           </p>
         </div>
       </div>
-      <div class="card" style="width: 9rem">
+      <div class="card" style="width: 29rem">
         <!-- <img src="..." class="card-img-top" alt="..." /> -->
         <div class="card-body">
           <p class="card-text">
@@ -116,7 +114,7 @@
           </p>
         </div>
       </div>
-      <div class="card" style="width: 9rem">
+      <div class="card" style="width: 29rem">
         <!-- <img src="..." class="card-img-top" alt="..." /> -->
         <div class="card-body">
           <p class="card-text">
@@ -124,13 +122,22 @@
           </p>
         </div>
       </div>
-      <div #end class="card" style="width: 18rem">
+      <div class="card" style="width: 29rem">
         <!-- <img src="..." class="card-img-top" alt="..." /> -->
         <div class="card-body">
           <p class="card-text">
-            <button (click)="scroll(start)">L</button>Some quick example text.
+            /* GROUP PROJECT 01:<br /><br />Some quick example text. */
           </p>
         </div>
+      </div>
+      <div #end id="conStruct1" class="card">
+        <button class="btn btn-light disabled bg-danger">
+          scroll<br />
+          {{ spinCounter }}</button
+        ><button class="btn btn-light disabled bg-danger">not<br />yet</button
+        ><button class="btn btn-dark click" (click)="scroll(start)">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
       </div>
     </div>
   </div>
