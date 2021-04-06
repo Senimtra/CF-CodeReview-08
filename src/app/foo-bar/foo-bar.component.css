@@ -48,4 +48,9 @@
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
 /*# sourceMappingURL=foo-bar.component.css.map */
