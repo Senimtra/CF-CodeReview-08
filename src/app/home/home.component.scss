@@ -44,7 +44,7 @@
   font-size: 0.8rem;
 }
 
-#cr1 {
+.codeReview {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -67,7 +67,7 @@
     url("/assets/images/tile_vert.jpg");
 }
 
-#cr1text {
+.crtext {
   // border-top-left-radius: 0;
   // border-bottom-left-radius: 0;
   width: 20vh;
@@ -127,7 +127,7 @@
 
 //////////////////////////////////////// ROW 2 /////////////////////////////////////@at-root
 
-#conStruct1 {
+.conStruct {
   padding-top: 1vh;
   padding-bottom: 1vh;
   width: 10vh;
@@ -150,6 +150,7 @@
 
 .btn {
   border: 0.3vh solid black;
+  box-shadow: 0px 1px 2px black;
 }
 
 .disabled {

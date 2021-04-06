@@ -3,12 +3,14 @@
 
   <div (wheel)="countSpin()" class="container-fluid">
     <div class="row">
-      <div #start id="cr1" class="card">
+      <!-- ### Code Review 01 tiles begin here ### -->
+
+      <div #start class="codeReview card">
         <a href="http://semintra.dev/FSWDC_CodeReview_01/index.html">
           <img src="assets/images/CodeReview01.jpg"
         /></a>
       </div>
-      <div id="cr1text" class="card">
+      <div class="card crtext">
         <div class="crHead p-1 px-2">
           <div class="crTitle">
             Code <span style="color: rgb(143, 224, 235)">Review</span>
@@ -19,7 +21,7 @@
           </div>
         </div>
         <div class="crTask p-1 px-2">
-          <span style="color: rgb(255, 136, 0)">-></span>rebuild Basic Website
+          <span style="color: rgb(255, 136, 0)">-></span>rebuild basic Website
         </div>
         <div class="crTec">
           <img src="assets/icons/html.svg" /><img src="assets/icons/css.svg" />
@@ -42,12 +44,31 @@
         </div>
       </div>
 
-      <div class="card" style="width: 9rem">
-        <!-- <img src="..." class="card-img-top" alt="..." /> -->
-        <div class="card-body">
-          <p class="card-text">
-            /* CODE REVIEW 02:<br /><br />Some quick example text. */
-          </p>
+      <!-- ### Code Review 02 tiles begin here ### -->
+
+      <div #start class="codeReview card">
+        <a href="http://semintra.dev/FSWDC_CodeReview_02/index.html">
+          <img src="assets/images/CodeReview02.jpg"
+        /></a>
+      </div>
+      <div class="card crtext">
+        <div class="crHead p-1 px-2">
+          <div class="crTitle">
+            Code <span style="color: rgb(143, 224, 235)">Review</span>
+          </div>
+          <div class="crSubTitle">
+            <div class="crTime">t<span style="color: red">:</span>1d</div>
+            <div>week<span style="color: rgb(255, 88, 241)">#2</span></div>
+          </div>
+        </div>
+        <div class="crTask p-1 px-2">
+          <span style="color: rgb(255, 136, 0)">-></span>rebuild responsive
+          Website
+        </div>
+        <div class="crTec">
+          <img src="assets/icons/html.svg" /><img
+            src="assets/icons/css.svg"
+          /><img src="assets/icons/sass.svg" />
         </div>
       </div>
       <div class="card" style="width: 9rem">
@@ -76,10 +97,12 @@
       </div>
     </div>
 
-    <!-- ### Row Two begins here ### -->
+    <!-- ### Row two begins here ### -->
 
     <div class="row">
-      <div id="conStruct1" class="card">
+      <!-- ### Construction site begins here ### -->
+
+      <div class="card conStruct">
         <button class="btn btn-light disabled bg-danger">
           scroll<br />
           {{ spinCounter }}</button
@@ -130,7 +153,10 @@
           </p>
         </div>
       </div>
-      <div #end id="conStruct1" class="card">
+
+      <!-- ### Construction site begins here ### -->
+
+      <div #end class="card conStruct">
         <button class="btn btn-light disabled bg-danger">
           scroll<br />
           {{ spinCounter }}</button
