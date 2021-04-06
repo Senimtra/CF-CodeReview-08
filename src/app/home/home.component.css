@@ -1,7 +1,7 @@
 .container-fluid {
-  border-left: 0.7rem solid rgba(0, 0, 0, 0);
-  border-top: 0.4rem solid rgba(0, 0, 0, 0);
-  border-bottom: 0.4rem solid rgba(0, 0, 0, 0);
+  border-left: 0.9rem solid rgba(0, 0, 0, 0);
+  border-top: 0.6rem solid rgba(0, 0, 0, 0);
+  border-bottom: 0.6rem solid rgba(0, 0, 0, 0);
   height: 60vh;
   background: rgba(0, 0, 0, 0.8);
   border-top-left-radius: 0.3rem;
@@ -57,12 +57,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 21.52vh;
+  width: calc(23.3vh - 1em);
+  margin-right: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 #cr1 img {
   border-radius: 0.2rem;
-  width: 20.42vh;
-  height: 26vh;
+  width: 19vh;
+  height: 25.5vh;
+  margin-left: 0.03rem;
 }
 /*# sourceMappingURL=home.component.css.map */
