@@ -1,0 +1,79 @@
+.container-fluid {
+  border-left: 1.6vh solid rgba(0, 0, 0, 0); // 0.9rem
+  border-top: 1.6vh solid rgba(0, 0, 0, 0); // 0.6rem
+  border-bottom: 1.5vh solid rgba(0, 0, 0, 0); // 0.6rem // 1.1 -> 1.0 due to shadow
+  height: 60vh;
+  background: black;
+  // border: 0.3rem solid #e4e3c8;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  //   border-radius: 0.3rem;
+  box-shadow: 0px 1px 2px black;
+  //   width: 100vw;
+  color: #e4e3c8;
+  overflow-y: hidden;
+  // overflow: scroll;
+  // display: flex;
+  //   justify-content: flex-start;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+.blockScroll {
+  // border: 1px solid purple;
+  font-size: 0.8rem;
+}
+
+.contactBody {
+  border: 1px solid green;
+  width: 70vh;
+}
+
+.aboutBody {
+  border: 1px solid green;
+  width: 70vh;
+}
+
+.skillsBody {
+  border: 1px solid green;
+  width: 100vh;
+}
+
+.conStruct {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("/assets/images/construction.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1.007);
+  position: relative;
+  left: -0.1vh;
+  border-radius: 0.8vh;
+  border: 0.1vh solid rgba(0, 0, 0, 0.87);
+}
+
+.click {
+  background-color: green;
+}
+
+.btn {
+  border: 0.3vh solid black;
+  box-shadow: 0px 1px 2px black;
+  word-wrap: break-word;
+}
+
+.disabled {
+  font-size: 1.7vh;
+}

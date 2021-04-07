@@ -1,4 +1,39 @@
-<p>contact works!</p>
+<div class="d-flex m-0 p-0">
+  <div class="blockScroll m-0 p-0">&nbsp;&nbsp;</div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- ### Construction site left begins here ### -->
+
+      <div #start class="conStruct">
+        <button class="btn btn-light disabled bg-danger mb-2">Contact</button
+        ><button class="btn btn-light disabled bg-danger mb-2">About me</button
+        ><button class="btn btn-light disabled bg-danger">Skills</button>
+        <button class="btn btn-dark click mt-auto" (click)="scroll(end)">
+          <i class="fas fa-angle-double-right"></i>
+        </button>
+      </div>
+      <div class="contactBody">Contact</div>
+      <div class="aboutBody">About</div>
+      <div class="skillsBody">Skills</div>
+
+      <!-- ### Construction site right begins here ### -->
+
+      <div #end class="conStruct">
+        <button class="btn btn-light disabled bg-danger mb-2">Contact</button
+        ><button class="btn btn-light disabled bg-danger mb-2">About me</button
+        ><button class="btn btn-light disabled bg-danger">Skills</button>
+        ><button class="btn btn-dark click mt-auto" (click)="scroll(start)">
+          <i class="fas fa-angle-double-left"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ######################################################################### -->
+
+<!-- <p>contact works!</p>
 <form class="row g-3">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
@@ -50,4 +85,4 @@
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Sign in</button>
   </div>
-</form>
+</form> -->
