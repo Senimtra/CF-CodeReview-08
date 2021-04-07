@@ -33,18 +33,31 @@
 }
 
 .contactBody {
-  border: 1px solid green;
-  width: 70vh;
+  // border: 1px solid green;
+  width: 84vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
+    url("/assets/images/tile_big.jpg");
+  border-radius: 0.5vh;
+  margin-left: 1.2vh;
 }
 
 .aboutBody {
-  border: 1px solid green;
-  width: 70vh;
+  // border: 1px solid green;
+  width: 84vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
+    url("/assets/images/tile_big.jpg");
+  border-radius: 0.5vh;
+  margin-left: 1.2vh;
 }
 
 .skillsBody {
-  border: 1px solid green;
-  width: 100vh;
+  // border: 1px solid green;
+  width: 84vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
+    url("/assets/images/tile_big.jpg");
+  border-radius: 0.5vh;
+  margin-left: 1.2vh;
+  margin-right: 1.2vh;
 }
 
 .conStruct {
