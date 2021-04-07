@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,yBAAyB;EACpC,UAAU,EAAE,mBAAmB;EAC/B,UAAU,EAAE,iBAAiB;EAC7B,aAAa,EAAE,MAAM;CAEtB",
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,SAAS,EAAE,yBAAyB;EACpC,UAAU,EAAE,mBAAmB;EAC/B,UAAU,EAAE,iBAAiB;EAC7B,aAAa,EAAE,MAAM;EACrB,MAAM,EAAE,eAAe;CAExB",
     "sources": [
         "navbar.component.scss"
     ],
