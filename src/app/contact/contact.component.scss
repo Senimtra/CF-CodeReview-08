@@ -161,3 +161,24 @@ input {
 input::selection {
   background: #f7a494;
 }
+
+.about {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 2px black;
+  border: 0.25vh solid black;
+  margin-top: 1.5vh;
+  padding-top: 1.5vh;
+  padding-bottom: 1vh;
+}
+
+.dateAbout {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.4vh;
+  box-shadow: 0px 2px 2px black;
+  // display: inline-block;
+  border: 0.25vh solid black;
+  font-size: 2vh;
+  margin-top: 1.5vh;
+  height: 3.8vh;
+  padding-top: 0.3vh;
+}
