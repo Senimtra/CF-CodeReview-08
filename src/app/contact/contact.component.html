@@ -1,7 +1,7 @@
 <div class="d-flex m-0 p-0">
   <div class="blockScroll m-0 p-0">&nbsp;&nbsp;</div>
 
-  <div class="container-fluid">
+  <div class="container-fluid contactCont">
     <div class="row">
       <!-- ### Construction site left begins here ### -->
 
@@ -19,13 +19,14 @@
       <div class="contactBody">
         <div class="heading">Contact</div>
 
-        <div class="col-12 container contForm pt-1 pb-1 alignCenter">
-          <div class="col-12 row d-flex pt-3 pb-3 alignCenter">
+        <div class="col-12 container contForm pt-0 pb-1 alignCenter">
+          <div class="col-12 row d-flex pt-0 pb-3 alignCenter">
             <div class="container col-12">
-              <form class="col h-100 rounded alignCenter p-3 shadow">
-                <!-- ### [formGroup]="contactForm"
-              (ngSubmit)="onSubmit()" ### -->
-
+              <form
+                class="col h-100 rounded alignCenter p-3 shadow"
+                [formGroup]="contactForm"
+                (ngSubmit)="onSubmit()"
+              >
                 <div class="col w-100 pt-1">
                   <label for="inputEmail4" class="form-label fw-light"
                     >Name*</label

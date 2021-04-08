@@ -1,4 +1,10 @@
 import { Component, OnInit } from '@angular/core';
+import {
+  ReactiveFormsModule,
+  FormControl,
+  FormGroup,
+  Validators,
+} from '@angular/forms';
 
 @Component({
   selector: 'app-contact',
@@ -6,6 +12,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent implements OnInit {
+  contactForm = new FormGroup({
+    fName: new FormControl('', [Validators.min(3), Validators.required]),
+    lName: new FormControl('', [Validators.min(3), Validators.required]),
+    email: new FormControl('', [Validators.email, Validators.required]),
+    msg: new FormControl(''),
+  });
+
   constructor() {}
 
   scroll(el: HTMLElement) {
@@ -17,4 +30,14 @@ export class ContactComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  onSubmit() {
+    if (this.contactForm.valid) {
+      var contactInfo = this.contactForm.value;
+      console.log(contactInfo);
+      alert('Thanks for your message!');
+    } else {
+      alert('Please fill out the required fields correctly.');
+    }
+  }
 }
