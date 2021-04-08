@@ -16,6 +16,24 @@
   font-size: calc(2.1vw + 2.1vh + 1.05vmin);
 }
 
+.fade {
+  -webkit-animation: fader 1s linear infinite;
+          animation: fader 1s linear infinite;
+  font-size: 115%;
+}
+
+@-webkit-keyframes fader {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fader {
+  50% {
+    opacity: 1;
+  }
+}
+
 a {
   text-decoration: none;
 }

@@ -23,6 +23,19 @@
   font-size: calc(2.1vw + 2.1vh + 1.05vmin);
 }
 
+// ### Blinking Cursor ###
+
+.fade {
+  animation: fader 1s linear infinite;
+  font-size: 115%;
+}
+
+@keyframes fader {
+  50% {
+    opacity: 1;
+  }
+}
+
 a {
   text-decoration: none;
 }
