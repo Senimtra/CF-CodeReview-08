@@ -114,4 +114,40 @@
 .skillHeading {
   border: 1px solid green;
 }
+
+.skillIcons img {
+  height: 6vh;
+}
+
+.alignCenter {
+  margin: 0 auto;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+textarea {
+  resize: none;
+  background-color: #1a1a1a;
+  border: 0.3vh solid black;
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+}
+
+input {
+  color: white;
+  background-color: #1a1a1a;
+  border: 0.3vh solid black;
+  -webkit-box-shadow: 0px 1px 2px black;
+          box-shadow: 0px 1px 2px black;
+}
+
+input::-moz-selection {
+  background: #f7a494;
+}
+
+input::selection {
+  background: #f7a494;
+}
 /*# sourceMappingURL=contact.component.css.map */

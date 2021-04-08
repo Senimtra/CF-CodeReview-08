@@ -13,7 +13,75 @@
           <i class="fas fa-angle-double-right"></i>
         </button>
       </div>
-      <div class="contactBody"><div class="heading">Contact</div></div>
+
+      <!-- ### Contact Section begins here ### -->
+
+      <div class="contactBody">
+        <div class="heading">Contact</div>
+
+        <div class="col-12 container contForm pt-1 pb-1 alignCenter">
+          <div class="col-12 row d-flex pt-3 pb-3 alignCenter">
+            <div class="container col-12">
+              <form class="col h-100 rounded alignCenter p-3 shadow">
+                <!-- ### [formGroup]="contactForm"
+              (ngSubmit)="onSubmit()" ### -->
+
+                <div class="col w-100 pt-1">
+                  <label for="inputEmail4" class="form-label fw-light"
+                    >Name*</label
+                  >
+                  <div class="d-flex flex-column flex-md-row">
+                    <input
+                      type="input"
+                      formControlName="fName"
+                      class="form-control w-md-50 mb-1 mb-md-0 me-md-1 rounded"
+                      placeholder="Insert your first name"
+                    />
+                    <input
+                      type="input"
+                      formControlName="lName"
+                      class="form-control w-md-50 mt-1 mt-md-0 rounded"
+                      placeholder="Insert your last name"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-md-6 w-100 pt-2">
+                  <label for="email" class="form-label fw-light">Email*</label>
+                  <input
+                    type="input"
+                    formControlName="email"
+                    class="form-control rounded"
+                    placeholder="Insert your email"
+                  />
+                </div>
+
+                <div class="col-md-6 w-100 pt-2">
+                  <label for="exampleFormControlTextarea1" class="fw-light"
+                    >Leave me a message</label
+                  >
+                  <textarea
+                    class="form-control rounded"
+                    formControlName="msg"
+                    rows="4"
+                    placeholder="..."
+                  ></textarea>
+                </div>
+                <div class="col-12 pt-3">
+                  <input
+                    type="submit"
+                    class="btn btn-outline-secondary rounded"
+                    value="Submit"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ######################################################################## -->
+
       <div class="aboutBody"><div class="heading">About me</div></div>
       <div class="skillsBody">
         <div class="heading">Skills</div>
@@ -68,59 +136,3 @@
     </div>
   </div>
 </div>
-
-<!-- ######################################################################### -->
-
-<!-- <p>contact works!</p>
-<form class="row g-3">
-  <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">Email</label>
-    <input type="email" class="form-control" id="inputEmail4" />
-  </div>
-  <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Password</label>
-    <input type="password" class="form-control" id="inputPassword4" />
-  </div>
-  <div class="col-12">
-    <label for="inputAddress" class="form-label">Address</label>
-    <input
-      type="text"
-      class="form-control"
-      id="inputAddress"
-      placeholder="1234 Main St"
-    />
-  </div>
-  <div class="col-12">
-    <label for="inputAddress2" class="form-label">Address 2</label>
-    <input
-      type="text"
-      class="form-control"
-      id="inputAddress2"
-      placeholder="Apartment, studio, or floor"
-    />
-  </div>
-  <div class="col-md-6">
-    <label for="inputCity" class="form-label">City</label>
-    <input type="text" class="form-control" id="inputCity" />
-  </div>
-  <div class="col-md-4">
-    <label for="inputState" class="form-label">State</label>
-    <select id="inputState" class="form-select">
-      <option selected>Choose...</option>
-      <option>...</option>
-    </select>
-  </div>
-  <div class="col-md-2">
-    <label for="inputZip" class="form-label">Zip</label>
-    <input type="text" class="form-control" id="inputZip" />
-  </div>
-  <div class="col-12">
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" id="gridCheck" />
-      <label class="form-check-label" for="gridCheck"> Check me out </label>
-    </div>
-  </div>
-  <div class="col-12">
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </div>
-</form> -->
