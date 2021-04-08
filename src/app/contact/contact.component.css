@@ -47,7 +47,6 @@
 }
 
 .skillsBody {
-  border: 1px solid green;
   width: 84vh;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.84)), to(rgba(0, 0, 0, 0.84))), url("/assets/images/tile_big.jpg");
   background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url("/assets/images/tile_big.jpg");
@@ -112,11 +111,33 @@
 }
 
 .skillHeading {
-  border: 1px solid green;
+  display: inline-block;
+  background: rgba(37, 37, 37, 0.6);
+  margin-top: 0.5vh;
+  margin-left: -1vh;
+  border-radius: 0.4vh;
+}
+
+.skillIcons {
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
+  border: 0.25vh solid black;
+  margin-top: 1.5vh;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
 }
 
 .skillIcons img {
-  height: 6vh;
+  margin-left: 25%;
+  margin-right: 50%;
+  height: 5vh;
+  margin-top: 0.5vh;
+}
+
+.bE {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
 }
 
 .alignCenter {

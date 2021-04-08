@@ -51,7 +51,7 @@
 }
 
 .skillsBody {
-  border: 1px solid green;
+  // border: 1px solid green;
   width: 84vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)),
     url("/assets/images/tile_big.jpg");
@@ -108,14 +108,33 @@
 }
 
 .skillHeading {
-  border: 1px solid green;
+  display: inline-block;
+  background: rgba(37, 37, 37, 0.6);
+  margin-top: 0.5vh;
+  margin-left: -1vh;
+  border-radius: 0.4vh;
 }
 
-.skillIcons img {
-  height: 6vh;
+.skillIcons {
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 2px 2px black;
+  border: 0.25vh solid black;
+
+  img {
+    margin-left: 25%;
+    margin-right: 50%;
+    // border: 1px solid white;
+    height: 5vh;
+    margin-top: 0.5vh;
+  }
+  margin-top: 1.5vh;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
 }
 
-///////////////////////////////////@at-root
+.bE {
+  filter: grayscale(100%);
+}
 
 .alignCenter {
   margin: 0 auto;
@@ -137,9 +156,6 @@ input {
   background-color: rgb(26, 26, 26);
   border: 0.3vh solid black;
   box-shadow: 0px 1px 2px black;
-}
-
-.contForm {
 }
 
 input::selection {
