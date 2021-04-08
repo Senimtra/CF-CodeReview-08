@@ -133,6 +133,12 @@
   margin-right: 50%;
   height: 5vh;
   margin-top: 0.5vh;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 0.4vh;
+  -webkit-box-shadow: 0px 2px 2px black;
+          box-shadow: 0px 2px 2px black;
+  border: 0.25vh solid #1b1b1b;
+  padding: 0.5vh 1vh 0.5vh 1vh;
 }
 
 .bE {

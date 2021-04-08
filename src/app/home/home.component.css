@@ -16,9 +16,12 @@
           justify-content: flex-start;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
 ::-webkit-scrollbar {
   display: none;
+}
+
+.homeCont {
+  scrollbar-width: none;
 }
 
 .row {
