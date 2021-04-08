@@ -78,6 +78,28 @@
   border: 0.25vh solid black;
 }
 
+.crZoom:hover {
+  -webkit-transform: scale(1.07);
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  transform: scale(1.07);
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
+.crZoom {
+  -webkit-transform: scale(1);
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  transform: scale(1);
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  filter: none;
+}
+
 .crtext {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;

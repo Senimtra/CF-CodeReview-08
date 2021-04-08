@@ -45,36 +45,12 @@ a {
   color: white;
 }
 
-// div[class^="itsMe"] {
-//   font-size: calc(0.6vw + 0.6vh + 0.3vmin);
-//   background: rgba(0, 0, 0, 0.8);
-//   border-radius: 0.3rem;
-//   box-shadow: 0px 1px 2px black;
-//   img {
-//     height: calc(0.8vw + 0.8vh + 0.4vmin);
-//     position: relative;
-//     top: -0.05rem;
-//   }
-// }
+.fade {
+  animation: fader 3.5s linear infinite;
+}
 
-// ### Media query to show the longer version badge when container wraps ###
-
-// @media screen and (max-width: 400px) {
-//   .version1 {
-//     display: inline !important;
-//   }
-//   .version2 {
-//     display: none;
-//   }
-// }
-
-// ### Media query to show the longer signature when container wraps ###
-
-// @media screen and (max-width: 400px) {
-//   .itsMe1 {
-//     display: inline !important;
-//   }
-//   .itsMe2 {
-//     display: none;
-//   }
-// }
+@keyframes fader {
+  50% {
+    opacity: 1;
+  }
+}

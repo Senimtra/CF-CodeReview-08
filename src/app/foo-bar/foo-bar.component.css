@@ -54,4 +54,21 @@ a {
   text-decoration: none;
   color: white;
 }
+
+.fade {
+  -webkit-animation: fader 3.5s linear infinite;
+          animation: fader 3.5s linear infinite;
+}
+
+@-webkit-keyframes fader {
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes fader {
+  50% {
+    opacity: 1;
+  }
+}
 /*# sourceMappingURL=foo-bar.component.css.map */
