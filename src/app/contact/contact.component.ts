@@ -37,7 +37,7 @@ export class ContactComponent implements OnInit {
       console.log(contactInfo);
       alert('Thanks for your message!');
     } else {
-      alert('Please fill out the required fields correctly.');
+      alert('Please fill out the required fields.');
     }
   }
 }
