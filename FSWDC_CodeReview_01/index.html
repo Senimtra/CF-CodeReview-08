@@ -1,98 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- ### Head begins here ### -->
 
-<!-- ### Head begins here ### -->
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 
     <!-- ### trying to make it more responsive ### -->
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- ### Roboto-Font add from google ### -->
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Gregor Code Review 01 - Home</title>
-</head>
+  </head>
 
-<!-- ### Body begins here ### -->
+  <!-- ### Body begins here ### -->
 
-<body>
+  <body>
     <div id="wrapper">
+      <!-- ### Header begins here ### -->
 
-        <!-- ### Header begins here ### -->
+      <header>
+        <div id="header" class="barcolor">
+          <span
+            ><a href="https://github.com/Senimtra" target="_blank"
+              >Gregor - Full-Stack Web Developer</a
+            ></span
+          >
+          <a href="https://codefactory.wien/de/home/" target="_blank"
+            ><img src="./images/logo.png" alt="CodeFactory Vienna"
+          /></a>
+        </div>
+      </header>
 
-        <header>
-            <div id="header" class="barcolor">
-                <span><a href="https://github.com/Semintra" target="_blank">Gregor - Full-Stack Web Developer</a></span>
-                <a href="https://codefactory.wien/de/home/" target="_blank"><img src="./images/logo.png" alt="CodeFactory Vienna"></a>
+      <!-- ### Menu begins here ### -->
+
+      <nav>
+        <div id="menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- ### Content begins here ### -->
+
+      <main>
+        <div id="content">
+          <div id="headline">
+            <p>This is my first<br />website :D</p>
+          </div>
+          <article>
+            <div id="image" class="fullwidth">
+              <a href="_news_phone.html"
+                ><img
+                  src="./images/Phone.png"
+                  alt="Samsung Galaxy S11/S20 Plus"
+              /></a>
             </div>
-        </header>
-
-        <!-- ### Menu begins here ### -->
-
-        <nav>
-            <div id="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="aboutme.html">About me</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+            <div id="text" class="fullwidth">
+              <a href="_news_phone.html">
+                <p>
+                  Samsung Galaxy S11/S20 Plus video leaks showing phone in real
+                  life!
+                </p>
+              </a>
             </div>
-        </nav>
-
-        <!-- ### Content begins here ### -->
-
-        <main>
-            <div id="content">
-                <div id="headline">
-                    <p>This is my first<br>website :D</p>
-                </div>
-                <article>
-                    <div id="image" class="fullwidth">
-                        <a href="_news_phone.html"><img src="./images/Phone.png" alt="Samsung Galaxy S11/S20 Plus"></a>
-                    </div>
-                    <div id="text" class="fullwidth">
-                        <a href="_news_phone.html">
-                            <p>Samsung Galaxy S11/S20 Plus video leaks showing phone in real life!</p>
-                        </a>
-                    </div>
-                </article>
-                <article>
-                    <div id="left" class="column">
-                        <a href="_news_ATM.html"><img src="./images/Debit_card_ATM.jpg" alt="ATM machine"></a>
-                        <a href="_news_ATM.html">
-                            <p>Police are investigating three ATM explosions in two Florida counties</p>
-                        </a>
-                    </div>
-                </article>
-                <article>
-                    <div id="right" class="column">
-                        <a href="_news_Escooter.html"><img src="./images/Taxify-Scooters.jpg" alt="E-scooter"></a>
-                        <a href="_news_Escooter.html">
-                            <p>E-scooter firm Bolt pulls out of 12 cities</p>
-                        </a>
-                    </div>
-                </article>
+          </article>
+          <article>
+            <div id="left" class="column">
+              <a href="_news_ATM.html"
+                ><img src="./images/Debit_card_ATM.jpg" alt="ATM machine"
+              /></a>
+              <a href="_news_ATM.html">
+                <p>
+                  Police are investigating three ATM explosions in two Florida
+                  counties
+                </p>
+              </a>
             </div>
-        </main>
-
-        <!-- ### Footer begins ### -->
-
-        <footer>
-            <div id="footer" class="barcolor">
-                <a href="https://codefactory.wien/de/home/" target="_blank"><img src="./images/logo.png" alt="CodeFactory Vienna"></a>
-                <p><a href="https://github.com/Semintra" target="_blank">Gregor</a>
-                    <a href="https://codefactory.wien/de/home/" target="_blank">- CodeFactory 2020</a></p>
+          </article>
+          <article>
+            <div id="right" class="column">
+              <a href="_news_Escooter.html"
+                ><img src="./images/Taxify-Scooters.jpg" alt="E-scooter"
+              /></a>
+              <a href="_news_Escooter.html">
+                <p>E-scooter firm Bolt pulls out of 12 cities</p>
+              </a>
             </div>
-        </footer>
+          </article>
+        </div>
+      </main>
+
+      <!-- ### Footer begins ### -->
+
+      <footer>
+        <div id="footer" class="barcolor">
+          <a href="https://codefactory.wien/de/home/" target="_blank"
+            ><img src="./images/logo.png" alt="CodeFactory Vienna"
+          /></a>
+          <p>
+            <a href="https://github.com/Senimtra" target="_blank">Gregor</a>
+            <a href="https://codefactory.wien/de/home/" target="_blank"
+              >- CodeFactory 2020</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
-</body>
-
+  </body>
 </html>

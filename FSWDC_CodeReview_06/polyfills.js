@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Semintra\Desktop\SEMINTRA\FSWDC-CodeReviews\06_CodeReview_FrontEnd\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! C:\Users\Senimtra\Desktop\SENIMTRA\FSWDC-CodeReviews\06_CodeReview_FrontEnd\src\polyfills.ts */"hN/g");
 
 
 /***/ }),
