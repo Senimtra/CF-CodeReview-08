@@ -55,7 +55,8 @@ if ($_GET['id']) {
                                 <tr>
                                     <td>
                                         <h3 class="mb-4">Do you really want to delete this media?</h3>
-                                        <form action="actions/a_delete.php" method="post">
+                                        <form action="" method="post">
+                                            <!-- ### "actions/a_delete.php" ### -->
                                             <input type="hidden" name="id" value="<?php echo $id ?>" />
                                             <button class="btn btn-danger btn-pub" type="submit">Yes, delete it!</button>
                                             <a href="index.php"><button class="btn btn-warning btn-pub" type="button">No, go back!</button></a>

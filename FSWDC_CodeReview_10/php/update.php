@@ -55,7 +55,8 @@ if ($_GET['id']) {
 
                                 <!-- ### Update form begins here ### -->
 
-                                <form action="actions/a_update.php" method="post">
+                                <form action="" method="post">
+                                    <!-- ### "actions/a_update.php" ### -->
                                     <table class="table table-striped mb-0">
                                         <tr>
                                             <td colspan="2">

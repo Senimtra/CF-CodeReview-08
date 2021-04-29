@@ -22,7 +22,8 @@
 
                                 <!-- ### Create form begins here ### -->
 
-                                <form action="actions/a_create.php" method="post">
+                                <form action="" method="post">
+                                    <!-- ### "actions/a_create.php" ### -->
                                     <table class="table table-striped mb-0">
                                         <tr>
                                             <td colspan="2">

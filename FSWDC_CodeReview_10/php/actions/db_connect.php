@@ -1,9 +1,9 @@
 <?php
 
-$hostname = "db5002324578.hosting-data.io";
-$username = "dbu1343532";
-$password = "N85cNbvnu+zV2vp";
-$dbname = "dbs1869090";
+$hostname = "127.0.0.1";
+$username = "root";
+$password = "";
+$dbname = "cr10-gregor-biglibrary";
 
 $connect = mysqli_connect($hostname, $username, $password, $dbname);
 
