@@ -1,9 +1,9 @@
 <?php
 
-$hostname = "127.0.0.1";
-$username = "root";
+$hostname = "";
+$username = "";
 $password = "";
-$dbname = "cr10-gregor-biglibrary";
+$dbname = "";
 
 $connect = mysqli_connect($hostname, $username, $password, $dbname);
 
