@@ -1,0 +1,105 @@
+// ### general styles begin here ###
+
+body {
+  background: url(../images/background.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.btn a,
+.btn a:hover,
+.btn-group a,
+.btn-group a:hover,
+#socialMedia a,
+#socialMedia a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+// ### Header styles begin here ###
+
+#heroImg {
+  background-image: url("../images/header.jpg");
+  padding-bottom: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+// ### Navbar styles begin here ###
+
+#jokes {
+  width: 100%;
+}
+
+// ### Hide the scrollbar in Chrome, Safari and Opera ###
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+// ### Hide the scrollbar in Firefox ###
+
+html {
+  scrollbar-width: none;
+}
+
+.img-thumbnail {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+tr {
+  text-align: center;
+}
+
+#map {
+  height: 100%;
+}
+
+// ### Bootstrap card styles begin here ###
+
+.cardImg {
+  width: 100%;
+}
+
+.card {
+  img {
+    border-radius: 0.3rem;
+    box-shadow: 0px 2px 4px black;
+  }
+}
+
+.cardTitle {
+  font-size: 130%;
+  font-weight: bold;
+}
+
+.cardDshort {
+  font-size: 80%;
+  font-style: italic;
+}
+
+.cardPrice {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: underline;
+}
+
+.cardWikiSm {
+  font-size: 90%;
+}
+
+.btn-group {
+  // border: 1px solid green;
+  display: flex;
+  align-items: flex-end;
+}
+
+.library {
+  background-color: #432818;
+  color: black;
+}
