@@ -16,9 +16,6 @@ a {
   color: white;
 }
 
-/* ### This is from desktop to mobile, even though I know it should be the other way around. */
-/* ### I tried, but failed ... for hours. Then I decided to at least keep the mobile version */
-/* ### to somehow merge them later on - but that got even worse. I'm done ... */
 #wrapper {
   max-width: 1680px;
   margin: 0 auto;
@@ -134,6 +131,66 @@ a {
   color: black;
 }
 
+.heading-cult {
+  font-size: calc(1em + 0.5vw);
+  font-weight: bold;
+  padding: 1% 3%;
+  background-color: #ad93a1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  color: black;
+}
+
+.heading-news {
+  font-size: calc(1em + 0.5vw);
+  font-weight: bold;
+  padding: 1% 3%;
+  background-color: #dad6ba;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  color: black;
+}
+
+.heading-tech {
+  font-size: calc(1em + 0.5vw);
+  font-weight: bold;
+  padding: 1% 3%;
+  background-color: #8991ac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-column: 1/4;
+  color: black;
+}
+
 /* ### The two containers of the desktop version. ### */
 #container1 {
   display: -ms-grid;
@@ -166,6 +223,21 @@ a {
   row-gap: 2em;
 }
 
+#container-add {
+  display: -ms-grid;
+  display: grid;
+  padding: 0 6%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-grid-columns: 20% 70%;
+      grid-template-columns: 20% 70%;
+  grid-auto-rows: auto;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+  row-gap: 2em;
+}
+
 /* ### Webdeveloper banner ### */
 .developer {
   display: -webkit-box;
@@ -191,6 +263,29 @@ a {
   max-height: 20em;
   position: relative;
   top: 5px;
+}
+
+.article-add {
+  font-size: calc(0.6vw + 0.6vh + 0.3vmin);
+}
+
+.article-add img {
+  -o-object-fit: center;
+     object-fit: center;
+  width: 100%;
+  position: relative;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 2px 2px 3px black;
+          box-shadow: 2px 2px 3px black;
+  top: 5px;
+}
+
+.add-text {
+  background-color: whitesmoke;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 1px 1px 1px darkgrey;
+          box-shadow: 1px 1px 1px darkgrey;
 }
 
 .arttext {
@@ -289,6 +384,18 @@ a {
   padding-bottom: 1vh;
 }
 
+.news-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid red;
+  margin: 5%;
+}
+
+.news-image img {
+  width: 20rem;
+}
+
 /* ### Media query for mobile devices begins here ### */
 @media screen and (max-width: 480px) {
   body a {
@@ -341,6 +448,15 @@ a {
             flex-direction: column;
   }
   body #container2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body #container-add {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
